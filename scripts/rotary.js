@@ -17,8 +17,7 @@ var rotateDial = function(rotary, event, hole) {
   dial.css({'transform' : rotate, '-webkit-transform': rotate, '-moz-transform': rotate, '-ms-transform': rotate});
 };
 
-var makeTweet = function() {
-  text = $("#input").val()
+var makeTweet = function(text) {
   window.open("https://twitter.com/intent/tweet?text=" + encodeURIComponent(text));
 }
 
