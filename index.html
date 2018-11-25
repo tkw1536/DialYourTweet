@@ -14,7 +14,7 @@
       $(function(){
         $('#tweetbutton').on("click", function(e) {
           e.preventDefault();
-          makeTweet($("#input").val());
+          makeTweet($("#input").val() + " #DialYourTweet");
           return false;
         });
       });
